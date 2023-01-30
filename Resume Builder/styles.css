@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(31, 1, 31),rgba(136, 42, 42, 0.866)), url('Assets/Images/bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+body .logo{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Satisfy', cursive;
+    margin-left: 1%;
+    margin-top: 1%;
+    position: fixed;
+}
+
+body .content{
+    
+    width: 90%;
+    height: 100vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+    padding-top: 15%;
+}
+
+.content button{
+    border-radius: 10%;
+    margin-left: 40%;
+    margin-top: 5%;
+    padding: 1%;
+    color: black;
+    background-color: rgb(231, 211, 231);
+    text-decoration: none;
+    font-family: 'Goldman',cursive;
+    border-radius: 40rem;
+}
+
+
+.content h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.content h4{
+    color: rgb(240, 201, 201);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    padding: auto;
+    text-align: center;
+}
+
+.logo a{
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-align: left;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 0%;
+    padding-left: 0%;
+    font-weight: bold;
+    background-image: linear-gradient(-225deg, #a3a1aa 0%, #9d99a2 29%, #ff1361 67%, #cbca98 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 30px;
+}
+
+@keyframes textclip{
+    to{
+        background-position: 200% center;
+    }
+}
+
+nav{
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .logo h2{
+    color: black;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Satisfy', cursive;
+} */
+
+

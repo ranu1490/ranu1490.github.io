@@ -1,0 +1,50 @@
+ /* body {
+    background-color: rgb(30, 2, 30);
+  }  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Satisfy&display=swap');
+
+  #cv-form {
+    margin: 0;
+    padding: 0;
+    background-color: #56182a;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+  }
+  #cv-template {
+     display: none;
+    background-color: none;
+  }
+  .myimg {
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    width: 200px;
+  }
+  
+  .background {
+    background-color: rgb(150, 126, 150);
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  /* .container ul{
+    font-weight: bold;
+    font-size: 20px;
+  } */
+
+  #skillsT li{
+    list-style: none;
+    padding-top: 5px;
+    font-size: small;
+    font-weight: bold;
+  }
+
+  #nameT2{
+    font-size: 70px;
+  }

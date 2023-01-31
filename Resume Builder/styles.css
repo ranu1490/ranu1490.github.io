@@ -32,6 +32,8 @@ body .content{
     padding-right: 20%;
     padding-bottom: 20%;
     padding-top: 15%;
+    position: fixed;
+    display:list-item;
 }
 
 .content button{

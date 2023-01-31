@@ -46,6 +46,7 @@ function addNewWEField() {
   //generating cv
   function generateCV() {
     // console.log("generating CV");
+
   
     let nameField = document.getElementById("nameField").value;
   
@@ -111,6 +112,11 @@ function addNewWEField() {
   
     for (let e of aqs) {
       str1 += `<li> ${e.value} </li>`;
+    }
+
+    if((aqs && wes && skill && nameField && nameT1)=="")
+    {
+        alert("Please Enter Details")
     }
   
     document.getElementById("aqT").innerHTML = str1;
